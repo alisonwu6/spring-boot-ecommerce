@@ -1,13 +1,11 @@
 package com.luv2code.ecommerce.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.Entity;
-import jakarta.persistence.*;
-import jakarta.persistence.Table;
+// import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
+import jakarta.persistence.*;
+// import java.util.List;
 
 @Entity
 @Table(name = "country")

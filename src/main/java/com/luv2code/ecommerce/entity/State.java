@@ -1,8 +1,6 @@
 package com.luv2code.ecommerce.entity;
 
-import jakarta.persistence.Entity;
 import jakarta.persistence.*;
-import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity

@@ -1,10 +1,9 @@
 package com.luv2code.ecommerce.entity;
 
-import jakarta.persistence.*;
-import jakarta.persistence.criteria.Order;
 import lombok.Getter;
 import lombok.Setter;
 
+import jakarta.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
@@ -34,7 +33,4 @@ public class OrderItem {
     @JoinColumn(name = "order_id")
     private Order order;
 
-    public void setOrder(Order order) {
-        this.order = order;
-    }
 }
